@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <Title />
-    <Img />
+    <Banner />
   </div>
 </template>
 
 <script>
 import Title from "./components/Title.vue";
-import img from "./components/Hero.vue";
+import Banner from "./components/Hero.vue";
 
 export default {
   name: "App",
   components: {
     Title,
-    img,
+    Banner,
   },
 };
 </script>
